@@ -1,0 +1,32 @@
+.button, .secondary {
+  font-size: 10px;
+  text-decoration: none;
+  width: 100px;
+  padding: 7px 12px;
+  font-weight: 500;
+  background: none;
+  border: 2px solid #1e58ff;
+  color: #1e58ff;
+}
+.button:hover, .secondary:hover {
+  background: #1e58ff;
+  color: white;
+  cursor: pointer;
+}
+
+.secondary {
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  width: 120px;
+  padding: 10px 15px;
+  box-shadow: 2px 6px 12px -3px rgba(0, 0, 0, 0.28);
+  background: #1e58ff;
+  color: white;
+}
+.secondary:hover {
+  color: #1e58ff;
+  background: none;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=Button.module.css.map */

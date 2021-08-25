@@ -1,0 +1,18 @@
+.input {
+  font-size: 12px;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  border: none;
+  border-bottom: 2px solid gray;
+  color: gray;
+  margin-bottom: 24px;
+  resize: none;
+  outline: none;
+  height: 32px;
+}
+
+.textarea {
+  @extend .input;
+  height: 128px;
+  margin-bottom: 64px;
+}

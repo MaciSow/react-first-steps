@@ -1,0 +1,13 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 64px;
+    padding: 0;
+    width: 400px;
+}
+
+.radioContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 24px;
+}

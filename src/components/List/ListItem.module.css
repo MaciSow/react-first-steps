@@ -1,0 +1,57 @@
+@keyframes appear {
+  0% {
+    opacity: 0;
+    top: 35px;
+  }
+  100% {
+    opacity: 1;
+    top: 0;
+  }
+}
+.wrapper {
+  list-style: none;
+  padding: 0 30px 50px 0;
+  display: flex;
+  align-items: center;
+  position: relative;
+  animation: appear 0.5s ease;
+}
+.wrapper h2 {
+  text-align: left !important;
+}
+
+.image, .imageNone {
+  flex-shrink: 0;
+  margin-right: 30px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.imageNone {
+  background: url("https://icons-for-free.com/iconfiles/png/512/person-1324760545186718018.png");
+  background-size: cover;
+}
+
+.name {
+  margin: 0;
+  color: #1e58ff;
+  font-weight: 700;
+}
+
+.description {
+  margin: 10px 0 20px;
+  font-weight: 300;
+}
+
+.button {
+  font-size: 10px;
+  text-decoration: none;
+  padding: 7px 12px;
+  font-weight: 500;
+  background: none;
+  border: 2px solid #1e58ff;
+  color: #1e58ff;
+}
+
+/*# sourceMappingURL=ListItem.module.css.map */

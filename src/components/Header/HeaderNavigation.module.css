@@ -1,0 +1,15 @@
+.navItem {
+  display: inline-block;
+  margin-right: 50px;
+  list-style: none;
+}
+.navItem__Link {
+  font-size: 14px;
+  text-decoration: none;
+  color: #818181;
+}
+.navItem__LinkActive {
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=HeaderNavigation.module.css.map */
